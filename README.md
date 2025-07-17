@@ -1,7 +1,7 @@
 # MiniPC BMS
 A tiny UPS for powering Mini PC's from battery!
 
- ![Alt text](Powermanagement.jpg "PMS")
+ ![Alt text](Powermanagement.png "PMS")
 
 ## Features:
 - USB-C PD charging
