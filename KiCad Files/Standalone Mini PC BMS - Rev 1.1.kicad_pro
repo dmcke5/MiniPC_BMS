@@ -48,7 +48,7 @@
         "silk_text_thickness": 0.15,
         "silk_text_upright": false,
         "zones": {
-          "min_clearance": 0.0
+          "min_clearance": 0.2
         }
       },
       "diff_pair_dimensions": [
@@ -58,7 +58,11 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [],
+      "drc_exclusions": [
+        "solder_mask_bridge|93800000|142620000|efa02392-0680-48eb-87ba-026cf439e522|dcc4a929-bd7b-49e8-a09a-b3cfa0af2893",
+        "solder_mask_bridge|93800000|143320000|efa02392-0680-48eb-87ba-026cf439e522|64280619-1991-47b4-a9b8-efd7eec52f6e",
+        "solder_mask_bridge|93800000|144610000|14339dc2-a9df-4367-b1aa-2ec5c6e10923|64280619-1991-47b4-a9b8-efd7eec52f6e"
+      ],
       "meta": {
         "version": 2
       },
@@ -650,7 +654,7 @@
     },
     "net_format_name": "",
     "page_layout_descr_file": "",
-    "plot_directory": "../../../../../Desktop/",
+    "plot_directory": "../../../../../Desktop/Schematic",
     "spice_current_sheet_as_root": false,
     "spice_external_command": "spice \"%I\"",
     "spice_model_current_sheet_as_root": true,
